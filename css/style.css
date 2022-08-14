@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+header,
+footer,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+/*! HEADER */
+header {
+    background-image: url("../img/FallenHeroes_Banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: auto 898px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.header__bg {
+    z-index: 10;
+    background: linear-gradient(
+        0deg,
+        rgb(12, 12, 12) 0%,
+        rgba(12, 12, 12, 0.51) 45%,
+        rgba(12, 12, 12, 0.5) 46%,
+        rgba(12, 12, 12, 0) 100%
+    );
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 344px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+
+}
+.header__title {
+    z-index: 11;
+    font-family: Montserrat;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: center;
+    line-height: 90px;
+    letter-spacing: 0px;
+    font-weight: 200;
+    font-size: 60px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    margin-top: 165px;
+}
+.menu__item {
+    display: flex;
+}
+.menu__item li {
+    align-items: center;
+    height: 100%;
+    padding: 39px 20px 35px 20px;
+}
+.menu__item li a{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: initial;
+    color: #151515;
+}
+.menu__item li a:hover {
+    color: rgb(175, 175, 175);
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* SECTION WELCOME */
+.welcome__title {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    color: #151515;
+    font-size: 48px;
+    margin: 0 0 20px;
+}
+.block__welcome {
+    margin-top: 25px;
+}
+.welcome__info {
+    margin-bottom: 50px;
+}
+.welcome__info p {
+    margin: 0 0 20px;
+}
+.welcome__info span {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    text-align: left;
+}
